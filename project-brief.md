@@ -7,14 +7,14 @@ How accessible are health facilities to people living in Osogbo LGA, Osun State?
 Analyzing spatial accessibility to health facilities in Osogbo LGA matters because it reveals "healthcare deserts" and transit bottlenecks across the city's expanding population, providing the Osun State Ministry of Health with the spatial evidence needed to site new clinics and reduce emergency travel times where care is needed most.
 
 ## Part 3: Data Needed
-- Dataset	            What it gives you
-- Osun State boundary	Shows where Osun State is
-- LGA boundary	        Shows Osogbo LGA
-- Ward boundaries	    Divides Osogbo into wards
-- Health facilities     Locations of hospitals/clinics
-- Settlements          	Places where people live
-- Population	        Number of people living in areas
-- Roads	            	Shows how people travel to facilities
+- Dataset	          -  What it gives you
+- Osun State boundary -	Shows where Osun State is
+- LGA boundary	     -   Shows Osogbo LGA
+- Ward boundaries	 -   Divides Osogbo into wards
+- Health facilities  -   Locations of hospitals/clinics
+- Settlements        -  	Places where people live
+- Population	    -    Number of people living in areas
+- Roads	            -	Shows how people travel to facilities
 
 ## Part 4: Where Each Dataset Comes From	        
 - Osun State boundary - GRID3 - https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/explore?location=9.077959%2C8.685290%2C5
