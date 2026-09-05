@@ -16,15 +16,18 @@ Analyzing spatial accessibility to health facilities in Osogbo LGA matters becau
 -Population	            Number of people living in areas
 -Roads	            	Shows how people travel to facilities
 
-## Part 4: Where Each Dataset Comes From
--Dataset	        
--Osun State boundary	- GRID3 - https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/explore?location=9.077959%2C8.685290%2C5
+## Part 4: Where Each Dataset Comes From	        
+-Osun State boundary - GRID3 - https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/explore?location=9.077959%2C8.685290%2C5
 -LGA boundary - GRID3 - https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0/about  
+
 -Ward boundaries - GRID3 - https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0/about
--Health facilities - GRID3 - https://data.grid3.org/search?bbox=12.687437397251605%2C%206.573922805261585%2C%2024.332945209748512%2C%2019.224963830239595  	
+
+-Health facilities - GRID3 - https://data.grid3.org/search?bbox=12.687437397251605%2C%206.573922805261585%2C%2024.332945209748512%2C%2019.224963830239595  
+
 -Settlements - (Points & Polygons)
 		Points - https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-names/about
-     	Polygons - https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1/about   
+     	Polygons - https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1/about 
+		
 Roads - GRID3 - https://data.grid3.org/datasets/GRID3::grid3-nga-roads-v1-0/about          
 
 ## Part 5: What i plan to build
