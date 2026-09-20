@@ -24,8 +24,8 @@
 - Tool: QuickOSM in QGIS
 - Query: highway= road
 - Extracted: 13-09-2026
-- Features: 15
-- Geometry: LineString
+- Features: 4508
+- Geometry: LineString, Polygon
 - Surface information: motorways, residential streets, service roads, footways, and trails
 - Coverage: 100%
 
