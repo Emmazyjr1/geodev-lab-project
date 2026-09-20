@@ -37,4 +37,10 @@ The datasets were:
 - Boundary type: Local Government area
 - Number of features: 16
 
+## Clipped Area
 
+- Study area name: Roads, Health Facilities
+- State: Osun State
+- Country: Nigeria
+- Boundary type: Local Government area (Osogbo)
+- Geometry type: Polygon, LineStrings
