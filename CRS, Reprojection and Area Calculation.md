@@ -8,15 +8,15 @@ The datasets were:
 
 ## Original Layer Information
 
-- Layer name: 
+- Layer name: AOI_Osogbo
 - Geometry type: Polygon
-- Number of features: 
+- Number of features: 16
 - Original CRS: EPSG:4326 - WGS 84
 - Original CRS unit: Degrees
 
 ## Projected Layer Information
 
-- Output layer: 
+- Output layer: Osogbo_utm31
 - Projected CRS: EPSG:32631 - WGS 84 / UTM Zone 31N
 - Projected CRS unit: Metres
 - Output format: GeoPackage
@@ -35,6 +35,6 @@ The datasets were:
 - State: Osun State
 - Country: Nigeria
 - Boundary type: Local Government area
-- Number of features: 
+- Number of features: 16
 
 
