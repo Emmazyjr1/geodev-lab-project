@@ -8,15 +8,15 @@ The datasets were:
 
 ## Original Layer Information
 
-- Layer name: [Insert layer name]
+- Layer name: 
 - Geometry type: Polygon
-- Number of features: [Insert number]
+- Number of features: 
 - Original CRS: EPSG:4326 - WGS 84
 - Original CRS unit: Degrees
 
 ## Projected Layer Information
 
-- Output layer: [Insert output layer name]
+- Output layer: 
 - Projected CRS: EPSG:32631 - WGS 84 / UTM Zone 31N
 - Projected CRS unit: Metres
 - Output format: GeoPackage
@@ -31,10 +31,10 @@ The datasets were:
 
 ## Study Area
 
-- Study area name: [Insert LGA, ward, or state]
-- State: [Insert state]
+- Study area name: Osogbo LGA
+- State: Osun State
 - Country: Nigeria
-- Boundary type: [LGA / Ward / State]
-- Number of features: [Insert number]
+- Boundary type: Local Government area
+- Number of features: 
 
 
