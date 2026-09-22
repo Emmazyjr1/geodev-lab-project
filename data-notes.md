@@ -9,14 +9,12 @@
 
 - Number of official LGA: 1
 - Source: https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0/about
-- Geometry: Polygon
+- Geometry: P6lygon
 - Fields: 14
 - Coverage: 100%
-- Null values: 0
 - Geometry: Polygon
 - Surface information: Osogbo LGA
 - Coverage: 100%
-
 
 ## OSM Roads, Extracted via Grid3
 
@@ -24,9 +22,29 @@
 - Tool: QuickOSM in QGIS
 - Query: highway= road
 - Extracted: 13-09-2026
-- Features: 4508
-- Geometry: LineString, Polygon
+- Features: 16
+- Geometry: Polygon
 - Surface information: motorways, residential streets, service roads, footways, and trails
+- Coverage: 100%
+
+  ## OSM Roads, Extracted via Grid3
+
+- Source: https://data.grid3.org/datasets/GRID3::grid3-nga-roads-v1-0/explore?location=9.080717%2C8.679507%2C5
+- Tool: QuickOSM in QGIS
+- Extracted: 13-09-2026
+- Features: 4941
+- Geometry: LineString
+- Surface information: motorways, residential streets, service roads, footways, and trails
+- Coverage: 100%
+
+  ## OSM Roads, Extracted via Grid3
+
+- Source: https://data.grid3.org/datasets/GRID3::grid3-nga-roads-v1-0/explore?location=9.080717%2C8.679507%2C5
+- Tool: QuickOSM in QGIS
+- Extracted: 13-09-2026
+- Features: 1
+- Geometry: Point
+- Surface information: highway
 - Coverage: 100%
 
 ## OSM Health Facilities(hospitals, clinics, Pharmacies, doctors, and dentists), Extracted via HDX
@@ -35,8 +53,20 @@
 - Tool: QuickOSM in QGIS
 - Query: amenity= pharmacy
 - Extracted: 13-09-2026
-- Features: 25
-- Geometry: Point, Polygon
+- Features: 5
+- Geometry: Polygon
+- Key Columns: website, opening_hours, addr:street, amenity, addr:city, full_id, osm_id, osm_type, amenity and name
+- Null values: 0
+- Coverage: 100%
+
+## OSM Health Facilities(hospitals, clinics, Pharmacies, doctors, and dentists), Extracted via HDX
+
+- Source: https://data.humdata.org/dataset/hotosm_nga_health_facilities
+- Tool: QuickOSM in QGIS
+- Query: amenity= pharmacy
+- Extracted: 13-09-2026
+- Features: 2
+- Geometry: Point
 - Key Columns: website, opening_hours, addr:street, amenity, addr:city, full_id, osm_id, osm_type, amenity and name
 - Null values: 0
 - Coverage: 100%
