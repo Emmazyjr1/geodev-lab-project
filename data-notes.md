@@ -47,26 +47,13 @@
 - Surface information: highway
 - Coverage: 100%
 
-## OSM Health Facilities(hospitals, clinics, Pharmacies, doctors, and dentists), Extracted via HDX
+## OSM Health Facilities(hospitals, clinics, Pharmacies, doctors, dentists and others), Extracted via HDX
 
 - Source: https://data.humdata.org/dataset/hotosm_nga_health_facilities
-- Tool: QuickOSM in QGIS
-- Query: amenity= pharmacy
 - Extracted: 13-09-2026
-- Features: 5
-- Geometry: Polygon
-- Key Columns: website, opening_hours, addr:street, amenity, addr:city, full_id, osm_id, osm_type, amenity and name
-- Null values: 0
+- Features: 99
+- Geometry: Points
+- Key Columns: faculty_level, facility_type, facility_name, city_ownership_type, ward_bdry
 - Coverage: 100%
 
-## OSM Health Facilities(hospitals, clinics, Pharmacies, doctors, and dentists), Extracted via HDX
 
-- Source: https://data.humdata.org/dataset/hotosm_nga_health_facilities
-- Tool: QuickOSM in QGIS
-- Query: amenity= pharmacy
-- Extracted: 13-09-2026
-- Features: 2
-- Geometry: Point
-- Key Columns: website, opening_hours, addr:street, amenity, addr:city, full_id, osm_id, osm_type, amenity and name
-- Null values: 0
-- Coverage: 100%
