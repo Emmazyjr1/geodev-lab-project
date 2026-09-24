@@ -23,7 +23,7 @@ Analyzing spatial accessibility to health facilities in Osogbo LGA matters becau
 
 - Ward boundaries - GRID3 - https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0/about
 
-- Health facilities - GRID3 - https://data.grid3.org/search?bbox=12.687437397251605%2C%206.573922805261585%2C%2024.332945209748512%2C%2019.224963830239595  
+- Health facilities - HDX - https://data.humdata.org/dataset/a1e3e4bc-3699-4fe1-bd17-b38f4e7108d2/resource/f45c9266-0458-4160-a902-32661a6a67ed/download/grid3_nga_health_facilities_v3_0.gpkg
 
 - Settlements - GRID3 - (Points & Polygons)
 		Points - https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-names/about
