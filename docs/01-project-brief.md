@@ -12,7 +12,6 @@ Analyzing spatial accessibility to health facilities in Osogbo LGA matters becau
 - LGA boundary	     -   Shows Osogbo LGA
 - Ward boundaries	 -   Divides Osogbo into wards
 - Health facilities  -   Locations of hospitals/clinics
-- Settlements        -  	Places where people live
 - Population	    -    Number of people living in areas
 - Roads	            -	Shows how people travel to facilities
 
