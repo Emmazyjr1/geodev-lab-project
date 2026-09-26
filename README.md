@@ -16,7 +16,7 @@ GIS spatial accessibility analysis of health facilities, road networks coverage 
 └── requirements.txt
 ```
 The data is not in this repository. Every source is linked in
-[the project brief](docs/01-project-brief.md), so anyone can fetch it.
+[the project brief](docs/01-project-brief.md).
 
 
 ## Progress
