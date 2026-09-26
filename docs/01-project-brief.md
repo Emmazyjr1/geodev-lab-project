@@ -29,3 +29,6 @@ Analyzing spatial accessibility to health facilities in Osogbo LGA matters becau
 
 ## Part 5: What i plan to build
 I would build a QGIS workflow using health facility and settlement data to generate 500-metre healthcare service catchments, mapping areas across Osogbo's wards that fall outside these catchments to identify potentially underserved areas.
+
+**Status:** Week 1 complete. Data acquisition in Week 2, see
+[02-data-notes.md](02-data-notes.md).
