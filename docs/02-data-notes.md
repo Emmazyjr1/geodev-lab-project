@@ -55,4 +55,5 @@
 - Key Columns: faculty_level, facility_type, facility_name, city_ownership_type, ward_bdry
 - Coverage: 100%
 
-
+**Status:** Week 2 complete. Reprojection and quality checks in Week 3,
+see [03-CRS, Reprojection and Area Calculation.md](03-CRS, Reprojection and Area Calculation.md)
