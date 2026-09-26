@@ -26,9 +26,9 @@ The datasets were:
 
 | Field Name | Data Type | Description | Unit |
 |---|---|---|---|
-| area_wrong | Decimal number | Area calculated before reprojection | Square degrees |
-| area_m2 | Decimal number | Area calculated after reprojection | Square metres |
-| area_km2 | Decimal number | Area converted from square metres | Square kilometres |
+| area_wrong | Decimal number | 60985217.480  | Square degrees |
+| area_m2 | Decimal number | 60985217.482 | Square metres |
+| area_km2 | Decimal number | 60.985 | Square kilometres |
 
 ## Study Area
 
