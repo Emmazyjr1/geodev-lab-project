@@ -45,3 +45,5 @@ The datasets were:
 - Country: Nigeria
 - Boundary type: Local Government area (Osogbo)
 - Geometry type: Polygon, Points and LineStrings
+
+**Status:** Week 3 complete. First spatial analysis in Week 4.
