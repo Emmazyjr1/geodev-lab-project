@@ -8,9 +8,9 @@ The datasets were:
 
 ## Original Layer Information
 
-- Layer name: AOI_Osogbo
+- Layer name: nga_admin2
 - Geometry type: Polygon
-- Number of features: 1
+- Number of features: 774
 - Original CRS: EPSG:4326 - WGS 84
 - Original CRS unit: Degrees
 
@@ -19,6 +19,7 @@ The datasets were:
 - Output layer: Osogbo_utm31
 - Projected CRS: EPSG:32631 - WGS 84 / UTM Zone 31N
 - Projected CRS unit: Metres
+- Number of features: 1
 - Output format: GeoPackage
 
 ## Fields Created
