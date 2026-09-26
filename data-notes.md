@@ -10,7 +10,7 @@
 - Number of official LGA: 1
 - Source: https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0/about
 - Geometry: P6lygon
-- Fields: 14
+- Fields: 1
 - Coverage: 100%
 - Geometry: Polygon
 - Surface information: Osogbo LGA
@@ -20,7 +20,6 @@
 
 - Source: https://data.grid3.org/datasets/GRID3::grid3-nga-roads-v1-0/explore?location=9.080717%2C8.679507%2C5
 - Tool: QuickOSM in QGIS
-- Query: highway= road
 - Extracted: 13-09-2026
 - Features: 16
 - Geometry: Polygon
@@ -51,7 +50,7 @@
 
 - Source: https://data.humdata.org/dataset/hotosm_nga_health_facilities
 - Extracted: 13-09-2026
-- Features: 99
+- Features: 91
 - Geometry: Points
 - Key Columns: faculty_level, facility_type, facility_name, city_ownership_type, ward_bdry
 - Coverage: 100%
