@@ -9,7 +9,7 @@
 
 - Number of official LGA: 1
 - Source: https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0/about
-- Geometry: P6lygon
+- Geometry: Polygon
 - Fields: 1
 - Coverage: 100%
 - Geometry: Polygon
