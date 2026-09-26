@@ -29,4 +29,4 @@ Analyzing spatial accessibility to health facilities in Osogbo LGA matters becau
 - Roads - GRID3 - https://data.grid3.org/datasets/GRID3::grid3-nga-roads-v1-0/about          
 
 ## Part 5: What i plan to build
-I would build a QGIS workflow using GRID3 data to model road-network travel times and generate 5-to-30-minute healthcare service catchments, mapping underserved settlements across Osogbo's wards to identify critical "healthcare deserts."
+I would build a QGIS workflow using health facility and settlement data to generate 500-metre healthcare service catchments, mapping areas across Osogbo's wards that fall outside these catchments to identify potentially underserved areas.
