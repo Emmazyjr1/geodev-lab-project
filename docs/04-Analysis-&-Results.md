@@ -4,7 +4,7 @@
 I created a 500-metre buffer around health facilities to identify areas within the healthcare service catchment.
 
 ### Map
-[View Health Accessibility Map](docs/Health_Facilities_Accessibility_Map.png)
+[View Health Accessibility Map](/docs/Health_Facilities_Accessibility_Map.png)
 
 
 ### Key Finding
