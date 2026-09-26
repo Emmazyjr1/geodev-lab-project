@@ -56,4 +56,4 @@
 - Coverage: 100%
 
 **Status:** Week 2 complete. Reprojection and quality checks in Week 3,
-see [03-CRS, Reprojection and Area Calculation.md](03-CRS, Reprojection and Area Calculation.md)
+see [03-CRS-Reprojection-and-Area-Calculation.md](03-CRS-Reprojection-and-Area-Calculation.md)
