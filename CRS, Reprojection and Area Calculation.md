@@ -10,7 +10,7 @@ The datasets were:
 
 - Layer name: AOI_Osogbo
 - Geometry type: Polygon
-- Number of features: 16
+- Number of features: 1
 - Original CRS: EPSG:4326 - WGS 84
 - Original CRS unit: Degrees
 
@@ -35,7 +35,7 @@ The datasets were:
 - State: Osun State
 - Country: Nigeria
 - Boundary type: Local Government area
-- Number of features: 16
+- Number of features: 1
 
 ## Clipped Area
 
@@ -43,4 +43,4 @@ The datasets were:
 - State: Osun State
 - Country: Nigeria
 - Boundary type: Local Government area (Osogbo)
-- Geometry type: Polygon, LineStrings
+- Geometry type: Polygon, Points and LineStrings
