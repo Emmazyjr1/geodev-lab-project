@@ -25,7 +25,7 @@ GIS spatial accessibility analysis of health facilities, road networks coverage 
 The data is not in this repository. Every source is linked in
 [the project brief](/docs/01-project-brief.md).
 
-![Health Accessibility Map](/docs/Health_Facilities_Accessibility_Map.png)
+![Health Accessibility Map](/Month-1/docs/Health_Facilities_Accessibility_Map.png)
 
 
 ## Progress
