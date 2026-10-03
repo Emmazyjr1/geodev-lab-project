@@ -13,9 +13,9 @@ GIS spatial accessibility analysis of health facilities, road networks coverage 
 │   ├── 04-Analysis-&-Results.md  Week 4
 │   └── Health_Facilities_Accessibility_Map.png
 
-├── Month-2/
-├── docs/
-│   ├── 05-python-vscode-setup.md      Week 5
+├── screenshots/
+│   └── Week5.png
+│   ├── hello.py      Week 5
 ├── data/
 │   ├── raw/                     downloads, not committed
 │   └── processed/               outputs, not committed
