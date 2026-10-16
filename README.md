@@ -15,11 +15,14 @@ GIS spatial accessibility analysis of health facilities, road networks coverage 
 
 ├── screenshots/
 │   └── Week5.png
-    └── check.py.png
+│   └── check.py.png
+│   └── week7.png
 │   ├── hello.py      Week 5
 │   ├── check.py      Week 6
 │   ├── project.toml  Week 6
 │   ├── uv.lock       Week 6
+│   ├── analyse.py    Week 7
+│   ├── wards.csv     Week 7
 ├── data/
 │   ├── raw/                     downloads, not committed
 │   └── processed/               outputs, not committed
@@ -42,7 +45,8 @@ The data is not in this repository. Every source is linked in
 
 ## Month 2: Development Environment And Early Python
 - [x] Week 5, set up python, VS code and the terminal. Hello.py runs
-- [x] Week 6, Environments and project setup with uv 
+- [x] Week 6, Environments and project setup with uv
+- [x] Week 7, Python, the six ideas
 ---
 
 
