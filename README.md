@@ -17,12 +17,14 @@ GIS spatial accessibility analysis of health facilities, road networks coverage 
 │   └── Week5.png
 │   └── check.py.png
 │   └── week7.png
+│   └── week8.png
 │   ├── hello.py      Week 5
 │   ├── check.py      Week 6
 │   ├── project.toml  Week 6
 │   ├── uv.lock       Week 6
 │   ├── analyse.py    Week 7
 │   ├── wards.csv     Week 7
+│   ├── inspect_data.py     Week 8
 ├── data/
 │   ├── raw/                     downloads, not committed
 │   └── processed/               outputs, not committed
@@ -47,6 +49,8 @@ The data is not in this repository. Every source is linked in
 - [x] Week 5, set up python, VS code and the terminal. Hello.py runs
 - [x] Week 6, Environments and project setup with uv
 - [x] Week 7, Python, the six ideas
+- [x] Week 8, Python, files and data : Completed inspect_data.py to summarize GIS spatial accessibility analysis data for Osogbo LGA, Osun State, focusing on the area_wrong and area_km2 fields.
+
 ---
 
 
