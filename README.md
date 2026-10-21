@@ -24,6 +24,7 @@ GIS spatial accessibility analysis of health facilities, road networks coverage 
 │   ├── uv.lock       Week 6
 │   ├── analyse.py    Week 7
 │   ├── wards.csv     Week 7
+│   ├── mydata.csv    Week 8
 │   ├── inspect_data.py     Week 8
 ├── data/
 │   ├── raw/                     downloads, not committed
