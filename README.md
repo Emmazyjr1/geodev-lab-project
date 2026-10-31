@@ -51,7 +51,7 @@ The data is not in this repository. Every source is linked in
 - [x] Week 6, Environments and project setup with uv [week 6](check.py)
 - [x] Week 7, Python, the six ideas [week 7](analyse.py)
 - [x] Week 8, Python, files and data : Completed inspect_data.py to summarize GIS spatial accessibility analysis data for Osogbo LGA, Osun State, focusing on the area_wrong and area_km2 fields. [week 8](inspect_data.py)
-- [x] week 9, Consolidation and refactoring : This week, I learned how to refactor my Python code by breaking a program into smaller, reusable functions. I created separate functions to read CSV data, clean numerical values, and calculate summary statistics such as count, smallest value, largest value, and average. This practical strengthened my understanding of writing clean, reusable code and showed me how Python can support geospatial data analysis and future GIS automation tasks. [week 9](summarise.py)
+- [x] week 9, Consolidation and refactoring : This week, I learned how to refactor my Python code by breaking a program into smaller, reusable functions. I created separate functions to read CSV data, clean numerical values, and calculate summary statistics such as count, smallest value, largest value, and average. This practical strengthened my understanding of writing clean, reusable code and showed me how Python can support geospatial data analysis and future GIS automation tasks. [week 9](summary.py)
       
 ## Month 2 Key Lessons:
 - Breaking a program into smaller functions
