@@ -61,6 +61,9 @@ The data is not in this repository. Every source is linked in
 - Cleaning numerical values before analysis
 - Using loops and dictionaries to summarise multiple columns
 - Improving code readability without changing existing behaviour.
+
+## Month 3: Geospatial Python And Automation
+- [x] Week 10, GeoPandas, layers as tables
 ---
 
 
