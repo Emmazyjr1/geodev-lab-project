@@ -63,7 +63,8 @@ The data is not in this repository. Every source is linked in
 - Improving code readability without changing existing behaviour.
 
 ## Month 3: Geospatial Python And Automation
-- [x] Week 10, GeoPandas, layers as tables
+- [x] Week 10, GeoPandas, layers as tables [csv_to_points.py](month-03/week-10/csv_to_points.py), [explore_layer.py](month-03/week-10/explore_layer.py), [explore_pandas.py](month-03/week-11/explore_pandas.py), [filter_sort.py](month-03/week-10/filter_sort.py) [geom_props.py](month-03/week-10/geom_props.py), [join_population.py](month-03/week-10/join_population.py), [make_map.py](month-03/week-10/make_map.py), [save_outputs.py](month-03/week-10/save_outputs.py)
+- [x] Week 11, Coordinate reference systems and spatial operations in code [area_wrong_and_right.py](month-03/week-11/area_wrong_and_right.py), [set_vs_to.py](month-03/week-11/set_vs_to.py), [spatial_ops.py](month-03/week-11/spatial_ops.py), [coverage_gap.py](month-03/week-11/coverage_gap.py), [nearest.py](month-03/week-11/nearest.py), [clip_dissolve.py](month-03/week-11/clip_dissolve.py), and [fix_geometry.py](month-03/week-11/fix_geometry.py) added
 ---
 
 
