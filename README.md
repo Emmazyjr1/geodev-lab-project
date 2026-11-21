@@ -12,6 +12,21 @@ GIS spatial accessibility analysis of health facilities, road networks coverage 
 │   ├── 03-CRS, Reprojection and Area Calculation.md   Week 3
 │   ├── 04-Analysis-&-Results.md  Week 4
 │   └── Health_Facilities_Accessibility_Map.png
+│   ├── month-1-summary.md
+
+├── data/           
+│   └── processed/               
+│   ├── roads.gpkg
+│   ├── wards.gpkg
+├── raw/
+├── lga_facilities/
+│   ├── health_facilities.csv
+│   ├── ward_population.csv
+
+├── Month-3/
+├── week-10
+├── week-11
+├── Week-12
 
 ├── screenshots/
 │   └── Week5.png
@@ -28,9 +43,6 @@ GIS spatial accessibility analysis of health facilities, road networks coverage 
 │   ├── mydata.csv    Week 8
 │   ├── inspect_data.py     Week 8
 │   ├── summary.py     Week 9
-├── data/
-│   ├── raw/                     downloads, not committed
-│   └── processed/               outputs, not committed
 ├── scripts/
 └── requirements.txt
 ```
@@ -63,8 +75,12 @@ The data is not in this repository. Every source is linked in
 - Improving code readability without changing existing behaviour.
 
 ## Month 3: Geospatial Python And Automation
-- [x] Week 10, GeoPandas, layers as tables [csv_to_points.py](month-03/week-10/csv_to_points.py), [explore_layer.py](month-03/week-10/explore_layer.py), [explore_pandas.py](month-03/week-11/explore_pandas.py), [filter_sort.py](month-03/week-10/filter_sort.py) [geom_props.py](month-03/week-10/geom_props.py), [join_population.py](month-03/week-10/join_population.py), [make_map.py](month-03/week-10/make_map.py), [save_outputs.py](month-03/week-10/save_outputs.py)
-- [x] Week 11, Coordinate reference systems and spatial operations in code [area_wrong_and_right.py](month-03/week-11/area_wrong_and_right.py), [set_vs_to.py](month-03/week-11/set_vs_to.py), [spatial_ops.py](month-03/week-11/spatial_ops.py), [coverage_gap.py](month-03/week-11/coverage_gap.py), [nearest.py](month-03/week-11/nearest.py), [clip_dissolve.py](month-03/week-11/clip_dissolve.py), and [fix_geometry.py](month-03/week-11/fix_geometry.py) added
+- [x] Week 10, Geopandas, layers as tables [week-10 files](month-03/week-10)
+## Week 10 notes
+- [x] Week 11, Coordinate Reference Systems and Spatial Operations in Code [week-11 files](month-03/week-11)
+## Week 11 notes
+- [x] Week 12, Rasters and Rasterio [week-12 files](month-03/week-12)
+## Week 12 notes
 ---
 
 
