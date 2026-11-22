@@ -34,6 +34,10 @@ GIS spatial accessibility analysis of health facilities, road networks coverage 
 │   └── week7.png
 │   └── week8.png
 │   └── week9.png
+
+├── src/geodev_lab_project
+│    ├── .gitignore
+
 │   ├── hello.py      Week 5
 │   ├── check.py      Week 6
 │   ├── project.toml  Week 6
@@ -43,8 +47,8 @@ GIS spatial accessibility analysis of health facilities, road networks coverage 
 │   ├── mydata.csv    Week 8
 │   ├── inspect_data.py     Week 8
 │   ├── summary.py     Week 9
-├── scripts/
-└── requirements.txt
+│   ├── uv.lock
+│   └── wards.csv
 ```
 The data is not in this repository. Every source is linked in
 [the project brief](/Month-1/docs/01-project-brief.md).
@@ -76,11 +80,41 @@ The data is not in this repository. Every source is linked in
 
 ## Month 3: Geospatial Python And Automation
 - [x] Week 10, Geopandas, layers as tables [week-10 files](month-03/week-10)
-## Week 10 notes
+### week-10-notes
+[`my_explore.py`](month-03/week-10/my_explore.py) was used to inspect the Osogbo_Road_Lines GeoPackage, examine its attributes, geometry types, CRS, and spatial extent.
+
+**Results:**
+- **Total features:** 3,747
+- **Columns:** 25
+- **Geometry type:** MultiLineString (3,747)
+- **CRS:** EPSG:32631
+- **Spatial bounds:** Min X: 668098.95, Min Y: 850807.03, Max X: 677309.46, Max Y: 863086.26
+
+[`my_points.py`](month-03/week-10/my_points.py) was used to read the health facilities CSV file, convert longitude and latitude coordinates into spatial Point geometries, and save the data as a GeoPackage
+
+**Results:**
+- **Total facilities:** 91
+
+[`my_join.py`](month-03/week-10/my_join.py) was used to assess the proximity of health facilities to the road network by calculating the nearest road distance for each facility.
+**Results:**
+
+- Health facilities: 91, Road features: 3,747, Total road length: 674.74 km, CRS: EPSG:32631
+
+- Nearest road distance: Calculated for each health facility in metres and the first five facilities recorded distances of 8.36 m, 8.75 m, 29.72 m, 6.49 m, and 20.05 m respectively.
+
+[`my_map.py`](month-03/week-10/my_map.py) was used to visualise the road network and health facility locations on a single map, ensuring both layers share the same CRS.
+**Output:**
+- Saves the map as facilities_map.png in [month-03](month-03/week-10/).
+
+
+
+
+
+
 - [x] Week 11, Coordinate Reference Systems and Spatial Operations in Code [week-11 files](month-03/week-11)
-## Week 11 notes
+### week-11-notes
 - [x] Week 12, Rasters and Rasterio [week-12 files](month-03/week-12)
-## Week 12 notes
+## week-12-notes
 ---
 
 
