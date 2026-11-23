@@ -114,17 +114,31 @@ The data is not in this repository. Every source is linked in
 
 **Results:** Road polygons: 3,747, Health facilities: 91, Facilities counted: 0
 
-[`my_validity.py`](month-03/week-11/my_validity.py) 
+[`my_validity.py`](month-03/week-11/my_validity.py) was used to check the road network for invalid geometries and repair them using make_valid().
 
 **Results:** 
 
-[`my_reach.py`](month-03/week-11/my_reach.py) 
+[`my_reach.py`](month-03/week-11/my_reach.py) was used to calculate the distance from each road feature to its nearest health facility using a spatial nearest join.
 **Results:** 
-
 
 
 - [x] **Week 12, Rasters and Rasterio** [week-12 files](month-03/week-12)
 ## week-12-my_notes
+[`my_inspect.py`](month-03/week-12/my_inspect.py)was used to inspect the Digital Elevation Model (DEM) raster and retrieve its spatial and technical metadata.
+**Results:** 
+
+[`my_index.py`](month-03/week-12/my_index.py)
+**Results:** 
+
+
+[`my_zonal.py`](month-03/week-12/my_zonal.py) was used to calculate the mean elevation and NDVI values within 500-metre buffers around each road feature.
+**Results:** 
+
+
+[`my_plot_ndvi.py`](month-03/week-12/my_plot_ndvi.py)
+**Output:**
+- Saves the map as ndvi_map.png in [month-03](month-03/week-12/).
+
 ---
 
 
