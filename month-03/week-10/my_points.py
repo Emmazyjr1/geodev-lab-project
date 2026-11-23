@@ -2,7 +2,7 @@ import pandas as pd
 import geopandas as gpd
 
 # Read CSV file
-table = pd.read_csv("data/raw/mydata.csv")
+table = pd.read_csv("data/raw/osogbo_health_facilities.csv")
 
 print("Column names:", table.columns.tolist())
 print(table.head(3))
@@ -10,7 +10,7 @@ print(table.head(3))
 # Convert CSV coordinates into spatial points
 facilities = gpd.GeoDataFrame(
     table,
-    geometry=gpd.points_from_xy(table["center_lon"], table["center_lat"]),
+    geometry=gpd.points_from_xy(table["longitude"], table["latitude"]),
     crs="EPSG:4326", 
 )
 
