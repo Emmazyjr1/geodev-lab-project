@@ -83,6 +83,7 @@ The data is not in this repository. Every source is linked in
 ### week-10-my_notes
 
 [`my_explore.py`](month-03/week-10/my_explore.py) was used to inspect the Osogbo_Road_Lines GeoPackage, examine its attributes, geometry types, CRS, and spatial extent.
+
 **Results:**
 - **Total features:** 3,747
 - **Columns:** 25
@@ -91,16 +92,19 @@ The data is not in this repository. Every source is linked in
 - **Spatial bounds:** Min X: 668098.95, Min Y: 850807.03, Max X: 677309.46, Max Y: 863086.26
 
 [`my_points.py`](month-03/week-10/my_points.py) was used to read the health facilities CSV file, convert longitude and latitude coordinates into spatial Point geometries, and save the data as a GeoPackage
+
 **Results:**
 - **Total facilities:** 91
 
 [`my_join.py`](month-03/week-10/my_join.py) was used to assess the proximity of health facilities to the road network by calculating the nearest road distance for each facility.
+
 **Results:**
 - Health facilities: 91, Road features: 3,747, Total road length: 674.74 km, CRS: EPSG:32631
 - Nearest road distance: Calculated for each health facility in metres and the first five facilities recorded distances of 8.36 m, 8.75 m, 29.72 m, 6.49 m, and 20.05 m respectively.
 
 [`my_map.py`](month-03/week-10/my_map.py) was used to visualise the road network and health facility locations on a single map, ensuring both layers share the same CRS.
-**Output:**
+
+**Result:**
 - Saves the map as facilities_map.png in [month-03](month-03/week-10/).
 
 - [x] **Week 11, Coordinate Reference Systems and Spatial Operations in Code** [week-11 files](month-03/week-11)
@@ -117,26 +121,46 @@ The data is not in this repository. Every source is linked in
 [`my_validity.py`](month-03/week-11/my_validity.py) was used to check the road network for invalid geometries and repair them using make_valid().
 
 **Results:** 
+Invalid geometries before fixing: 0
+Invalid geometries after fixing: 0
+All 3,747 road geometries were valid.
+No geometry repairs were required.
 
 [`my_reach.py`](month-03/week-11/my_reach.py) was used to calculate the distance from each road feature to its nearest health facility using a spatial nearest join.
-**Results:** 
 
+**Results:** 
+Minimum distance: 0.00034 km (0.34 m), Maximum distance: 2.08 km, Average distance: 0.40 km
+nearest_health_facility.gpkg contains road features and their distances to the nearest health facilities.
 
 - [x] **Week 12, Rasters and Rasterio** [week-12 files](month-03/week-12)
 ## week-12-my_notes
-[`my_inspect.py`](month-03/week-12/my_inspect.py)was used to inspect the Digital Elevation Model (DEM) raster and retrieve its spatial and technical metadata.
-**Results:** 
+[`my_inspect.py`](month-03/week-12/my_inspect.py) was used to inspect the Digital Elevation Model (DEM) raster and retrieve its spatial and technical metadata.
 
-[`my_index.py`](month-03/week-12/my_index.py)
 **Results:** 
+Dimensions: 252 × 333 pixels
+Bands: 1
+Data type: Int16
+CRS: EPSG:32631
+Pixel size: Approximately 30.55 × 30.80 metres
+NoData value: -32768
 
+[`my_index.py`](month-03/week-12/my_index.py) was used to calculate the Normalized Difference Vegetation Index (NDVI) from Landsat 8 red (Band 4) and near-infrared (Band 5) imagery
+
+**Results:** 
+Band 4: File found successfully.
+Band 5: File found successfully.
+Minimum NDVI: -4635.4
+Maximum NDVI: 3883.0
+Mean NDVI: 0.3484
 
 [`my_zonal.py`](month-03/week-12/my_zonal.py) was used to calculate the mean elevation and NDVI values within 500-metre buffers around each road feature.
-**Results:** 
 
+**Results:**
+road_zonal_statistics.csv, containing mean elevation and NDVI values for the road features in [week-12 files](month-03/week-12).
 
 [`my_plot_ndvi.py`](month-03/week-12/my_plot_ndvi.py)
-**Output:**
+
+**Results:**
 - Saves the map as ndvi_map.png in [month-03](month-03/week-12/).
 
 ---
